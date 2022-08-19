@@ -1,0 +1,13 @@
+.hero-add {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 0;
+}
+
+.hero-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-gap: 1rem;
+  justify-items: center;
+  margin: 2rem;
+}
